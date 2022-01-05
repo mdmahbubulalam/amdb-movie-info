@@ -1,0 +1,23 @@
+.bg-color{
+    background-image: linear-gradient(to right, rgba(8.24%, 8.63%, 10.59%, 1.00) 150px, rgba(8.24%, 8.63%, 10.59%, 0.84) 100%);
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.imdb-logo{
+    background-color: #F5C518;
+    padding: 3px;
+    color: #000000;
+    font-weight: bolder;
+    border-radius: 3px;
+}
+
+p{
+    line-height: 1.2;
+}
