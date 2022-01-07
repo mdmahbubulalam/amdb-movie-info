@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import logo from '../../logo.png';
 import search from '../../search.svg';
+import Footer from '../Footer/Footer';
 import './Home.css';
 
 const Home = (props) => {
@@ -23,7 +24,7 @@ const Home = (props) => {
         
      }
     return ( 
-        <div className='container mb-5'>
+        <div className='container mb-3'>
             <div className="row">
                 <div className='d-flex align-items-center justify-content-between mt-3 mb-4'>
                     <div className='logo'>
@@ -64,7 +65,9 @@ const Home = (props) => {
            
             )
         }
+        
         </div>
+        <Footer/>
     </div>
     );
 };

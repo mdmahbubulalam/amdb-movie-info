@@ -9,6 +9,7 @@ import {
     Link,
   } from "react-router-dom";
 import Home from './components/Home/Home';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -226,6 +227,9 @@ function App() {
         </Route>
         <Route path='/details/:id'>
             <Details/>
+        </Route>
+        <Route path='/footer'>
+            <Footer/>
         </Route>
         <Route path="/">
             <Home movies={movies} searchValue={searchValue} setSearchValue={setSearchValue}/>

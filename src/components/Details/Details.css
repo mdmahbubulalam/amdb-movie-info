@@ -21,3 +21,11 @@
 p{
     line-height: 1.2;
 }
+
+.text-title-color {
+    color:#00e1ff
+} 
+
+.bg-rated {
+    background-color: gray;
+}

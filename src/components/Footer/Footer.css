@@ -1,0 +1,11 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #C800FF;
+}
