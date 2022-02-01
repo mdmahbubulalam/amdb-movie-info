@@ -14,176 +14,176 @@ import Footer from './components/Footer/Footer';
 
 function App() {
     const topRated = [
-        {
-            "Title": "The Shawshank Redemption",
-            "Year": "1994",
-            "imdbID": "tt0111161",
-            "Type": "movie",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
-          },
-          {
-            "Title": "The Godfather",
-            "Year": "1972",
-            "imdbID": "tt0068646",
-            "Type": "movie",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
-          },
-          {
-            "Title": "The Godfather: Part II",
-            "Year": "1974",
-            "imdbID": "tt0071562",
-            "Type": "movie",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
-          },
-          {
-            "Title": "The Dark Knight",
-            "Year": "2008",
-            "imdbID": "tt0468569",
-            "Type": "movie",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg"
-          },
-          {
-            "Title": "12 Angry Men",
-            "Year": "1957",
-            "imdbID": "tt0050083",
-            "Type": "movie",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg"
-          },
-          {
-            "Title": "Schindler's List",
-            "Year": "1993",
-            "imdbID": "tt0108052",
-            "Type": "movie",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
-          },
+      {
+        "Title": "Don't Look Up",
+        "Year": "2021",
+        "imdbID": "tt11286314",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNjZjNDE1NTYtYTgwZS00M2VmLWEyODktM2FlNjhiYTk3OGU2XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_SX300.jpg"
+      },
+      {
+        "Title": "Spider-Man: No Way Home",
+        "Year": "2021",
+        "imdbID": "tt10872600",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_SX300.jpg"
+      },
+      {
+        "Title": "No Time to Die",
+        "Year": "2021",
+        "imdbID": "tt2382320",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYWQ2NzQ1NjktMzNkNS00MGY1LTgwMmMtYTllYTI5YzNmMmE0XkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_SX300.jpg"
+      },
+      {
+        "Title": "Dune",
+        "Year": "2021",
+        "imdbID": "tt1160419",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BN2FjNmEyNWMtYzM0ZS00NjIyLTg5YzYtYThlMGVjNzE1OGViXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg"
+      },
+      {
+        "Title": "The Suicide Squad",
+        "Year": "2021",
+        "imdbID": "tt6334354",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNGM3YzdlOWYtNjViZS00MTE2LWE1MWUtZmE2ZTcxZjcyMmU3XkEyXkFqcGdeQXVyODEyMTI1MjA@._V1_SX300.jpg"
+      },
+      {
+        "Title": "Shang-Chi and the Legend of the Ten Rings",
+        "Year": "2021",
+        "imdbID": "tt9376612",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNTliYjlkNDQtMjFlNS00NjgzLWFmMWEtYmM2Mzc2Zjg3ZjEyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg"
+      },
 
-          {
-            "Title": "The Lord of the Rings: The Return of the King",
-            "Year": "2003",
-            "imdbID": "tt0167260",
-            "Type": "movie",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
-          },
-          {
-            "Title": "Pulp Fiction",
-            "Year": "1994",
-            "imdbID": "tt0110912",
-            "Type": "movie",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
-          },
-          {
-            "Title": "The Good, the Bad and the Ugly",
-            "Year": "1966",
-            "imdbID": "tt0060196",
-            "Type": "movie",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BOTQ5NDI3MTI4MF5BMl5BanBnXkFtZTgwNDQ4ODE5MDE@._V1_SX300.jpg"
-          },
-          {
-            "Title": "The Lord of the Rings: The Fellowship of the Ring",
-            "Year": "2001",
-            "imdbID": "tt0120737",
-            "Type": "movie",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg"
-          },
-          {
-            "Title": "Fight Club",
-            "Year": "1999",
-            "imdbID": "tt0137523",
-            "Type": "movie",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
-          },
-          {
-            "Title": "Forrest Gump",
-            "Year": "1994",
-            "imdbID": "tt0109830",
-            "Type": "movie",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
-          },
-          {
-            "Title": "Planet Earth",
-            "Year": "2006",
-            "imdbID": "tt0795176",
-            "Type": "series",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BNmZlYzIzMTItY2EzYS00YTEyLTg0ZjEtMDMzZjM3ODdhN2UzXkEyXkFqcGdeQXVyNjI0MDg2NzE@._V1_SX300.jpg"
-          },
+      {
+        "Title": "Squid Game",
+        "Year": "2021–",
+        "imdbID": "tt10919420",
+        "Type": "series",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYWE3MDVkN2EtNjQ5MS00ZDQ4LTliNzYtMjc2YWMzMDEwMTA3XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_SX300.jpg"
+      },
+      {
+        "Title": "Free Guy",
+        "Year": "2021",
+        "imdbID": "tt6264654",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BOTY2NzFjODctOWUzMC00MGZhLTlhNjMtM2Y2ODBiNGY1ZWRiXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg"
+      },
+      {
+        "Title": "WandaVision",
+        "Year": "2021",
+        "imdbID": "tt9140560",
+        "Type": "series",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZGEwYmMwZmMtMTQ3MS00YWNhLWEwMmQtZTU5YTIwZmJjZGQ0XkEyXkFqcGdeQXVyMTI5MzA5MjA1._V1_SX300.jpg"
+      },
+      {
+        "Title": "Loki",
+        "Year": "2021–",
+        "imdbID": "tt9140554",
+        "Type": "series",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNTkwOTE1ZDYtODQ3Yy00YTYwLTg0YWQtYmVkNmFjNGZlYmRiXkEyXkFqcGdeQXVyNTc4MjczMTM@._V1_SX300.jpg"
+      },
+      {
+        "Title": "Cruella",
+        "Year": "2021",
+        "imdbID": "tt3228774",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BOWI5YTUxOWEtZmRiZS00ZmQxLWE2NzctYTRiODA2NzE1ZjczXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg"
+      },
+      {
+        "Title": "Zack Snyder's Justice League",
+        "Year": "2021",
+        "imdbID": "tt12361974",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYjI3NDg0ZTEtMDEwYS00YWMyLThjYjktMTNlM2NmYjc1OGRiXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_SX300.jpg"
+      },
+      {
+        "Title": "Aspirants",
+        "Year": "2021–",
+        "imdbID": "tt14392248",
+        "Type": "series",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNWRkMjA0NjItMmViYS00MDQyLTgyMWYtOWFmOTA4NmU5MjRjXkEyXkFqcGdeQXVyNDY4NjAxNTc@._V1_SX300.jpg"
+      },
 
-          {
-            "Title": "Breaking Bad",
-            "Year": "2008–2013",
-            "imdbID": "tt0903747",
-            "Type": "series",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BMjhiMzgxZTctNDc1Ni00OTIxLTlhMTYtZTA3ZWFkODRkNmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
-          },
-          {
-            "Title": "Band of Brothers",
-            "Year": "2001",
-            "imdbID": "tt0185906",
-            "Type": "series",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BMTI3ODc2ODc0M15BMl5BanBnXkFtZTYwMjgzNjc3._V1_SX300.jpg"
-          },
-          {
-            "Title": "Chernobyl",
-            "Year": "2019",
-            "imdbID": "tt7366338",
-            "Type": "series",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BZGQ2YmMxZmEtYjI5OS00NzlkLTlkNTEtYWMyMzkyMzc2MDU5XkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_SX300.jpg"
-          },
-          {
-            "Title": "The Wire",
-            "Year": "2002–2008",
-            "imdbID": "tt0306414",
-            "Type": "series",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BNTllYzFhMjAtZjExNS00MjM4LWE5YmMtOGFiZGRlOTU5YzJiXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_SX300.jpg"
-          },
-          {
-            "Title": "Blue Planet II",
-            "Year": "2017",
-            "imdbID": "tt6769208",
-            "Type": "series",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BYjg2ODk0MjUtNmMzZS00MjY0LWI1YWMtN2JhMjRmZGUwY2I3XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
-          },
-          {
-            "Title": "Our Planet",
-            "Year": "2019",
-            "imdbID": "tt9253866",
-            "Type": "series",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BN2I1ZjA5YjQtYmQ0ZS00ZmE1LTk1ZjktNTQ5ODIzY2JiZDdhXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_SX300.jpg"
-          },
-          {
-            "Title": "Cosmos: A Spacetime Odyssey",
-            "Year": "2014",
-            "imdbID": "tt2395695",
-            "Type": "series",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BZTk5OTQyZjYtMDk3Yy00YjhmLWE2MTYtZmY4NTg1YWUzZTQ0XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg"
-          },
-          {
-            "Title": "Dirilis: Ertugrul",
-            "Year": "2014–2019",
-            "imdbID": "tt4320258",
-            "Type": "series",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BMTYwM2Y5NzMtMzQzZC00YTE5LTlmYzctMzc2M2E5NGQ2YjFjXkEyXkFqcGdeQXVyNTM3NzExMDQ@._V1_SX300.jpg"
-          },
-          {
-            "Title": "Cosmos",
-            "Year": "1980",
-            "imdbID": "tt0081846",
-            "Type": "series",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BMTY4MGQyNjgtMzdmZS00MjQ5LWIyMzItYjYyZmQzNjVhYjMyXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg"
-          },
-          {
-            "Title": "The Sopranos",
-            "Year": "1999–2007",
-            "imdbID": "tt0141842",
-            "Type": "series",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BZGJjYzhjYTYtMDBjYy00OWU1LTg5OTYtNmYwOTZmZjE3ZDdhXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
-          },
-          {
-            "Title": "Batman: The Animated Series",
-            "Year": "1992–1995",
-            "imdbID": "tt0103359",
-            "Type": "series",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BOTM3MTRkZjQtYjBkMy00YWE1LTkxOTQtNDQyNGY0YjYzNzAzXkEyXkFqcGdeQXVyOTgwMzk1MTA@._V1_SX300.jpg"
-          },
+      {
+        "Title": "Nobody",
+        "Year": "2021",
+        "imdbID": "tt7888964",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMjM5YTRlZmUtZGVmYi00ZjE2LWIyNzAtOWVhMDk1MDdkYzhjXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SX300.jpg"
+      },
+      {
+        "Title": "Jai Bhim",
+        "Year": "2021",
+        "imdbID": "tt15097216",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BY2Y5ZWMwZDgtZDQxYy00Mjk0LThhY2YtMmU1MTRmMjVhMjRiXkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_SX300.jpg"
+      },
+      {
+        "Title": "The Falcon and the Winter Soldier",
+        "Year": "2021",
+        "imdbID": "tt9208876",
+        "Type": "series",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BODNiODVmYjItM2MyMC00ZWQyLTgyMGYtNzJjMmVmZTY2OTJjXkEyXkFqcGdeQXVyNzk3NDUzNTc@._V1_SX300.jpg"
+      },
+      {
+        "Title": "Wrath of Man",
+        "Year": "2021",
+        "imdbID": "tt11083552",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNGVkOTlhOTktNjZiNS00NDg3LWIxMDAtZTY5Y2E0YjllN2IxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg"
+      },
+      {
+        "Title": "Luca",
+        "Year": "2021",
+        "imdbID": "tt12801262",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZTQyNTU0MDktYTFkYi00ZjNhLWE2ODctMzBkM2U1ZTk3YTMzXkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_SX300.jpg"
+      },
+      {
+        "Title": "Raya and the Last Dragon",
+        "Year": "2021",
+        "imdbID": "tt5109280",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZWNiOTc4NGItNGY4YS00ZGNkLThkOWEtMDE2ODcxODEwNjkwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg"
+      },
+      {
+        "Title": "Arcane",
+        "Year": "2021–",
+        "imdbID": "tt11126994",
+        "Type": "series",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYmU5OWM5ZTAtNjUzOC00NmUyLTgyOWMtMjlkNjdlMDAzMzU1XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg"
+      },
+      {
+        "Title": "Mare of Easttown",
+        "Year": "2021",
+        "imdbID": "tt10155688",
+        "Type": "series",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYjIyOGU1NzAtODZmYi00NGMzLWJiMjItNGNjNTFjOTM5ZDJhXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_SX300.jpg"
+      },
+      {
+        "Title": "Shershaah",
+        "Year": "2021",
+        "imdbID": "tt10295212",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMjk1NzcwMDUtNDU4ZC00MzlhLTkzZjAtM2MxMTRjZGE0ODdhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg"
+      },
+      {
+        "Title": "Dhindora",
+        "Year": "2021–",
+        "imdbID": "tt14650074",
+        "Type": "series",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZWM2ZGMzMTktMDVkNS00ZTNhLWFhMDEtMzA2NzU4NGI4NzQ2XkEyXkFqcGdeQXVyMTM5MTQzOTQ0._V1_SX300.jpg"
+      },
+      {
+        "Title": "Invincible",
+        "Year": "2021–",
+        "imdbID": "tt6741278",
+        "Type": "series",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMmE1ODVhMGYtODYyYS00Mjc4LWIzN2EtYWZkZDg1MTUyNDkxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg"
+      }
     ] 
 
     function shuffle(a) {
@@ -199,7 +199,7 @@ function App() {
     const topRatedList = shuffle(topRated);
     const [movies, setMovies] = useState (topRatedList);
     const [searchValue, setSearchValue] = useState('');
-    const [topRatedMovie, setTopRatedMovie] = useState('Top Rated Movie and TVSeries')
+    const [topRatedMovie, setTopRatedMovie] = useState('Best Movie and Series of 2021')
    
 
     
@@ -232,7 +232,7 @@ function App() {
             <Footer/>
         </Route>
         <Route path="/">
-            <Home movies={movies} searchValue={searchValue} setSearchValue={setSearchValue}/>
+            <Home movies={movies} topRatedMovie={topRatedMovie} setSearchValue={setSearchValue}/>
         </Route>
     </Switch>
 </Router>

@@ -10,12 +10,8 @@
     font-weight: bold;
 }
 
-.imdb-logo{
-    background-color: #F5C518;
-    padding: 3px;
-    color: #000000;
-    font-weight: bolder;
-    border-radius: 3px;
+.imdb-text-color{
+    color: #F5C518;  
 }
 
 p{
