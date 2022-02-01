@@ -12,7 +12,7 @@ const Header = () => {
             <div className="row">
                 <div className='d-flex align-items-center justify-content-center mt-3 mb-3'>
                     <div className='logo'>
-                        <img src={logo} alt="" height='35' onClick={handleClick} />
+                        <img src={logo} alt="LogoMakr.com/app" onClick={handleClick} />
                     </div>
                 </div>
             </div>

@@ -23,6 +23,16 @@ const Home = (props) => {
         }
         
      }
+
+     const handleKeyPress = (e)=> {
+        if(e.key === 'Enter'){
+            if(searchText){
+                props.setSearchValue(searchText)
+            }
+        }
+       
+        
+     }
     return ( 
         <div className='container mb-3'>
             <div className="row">
@@ -35,7 +45,7 @@ const Home = (props) => {
                        <form className='pt-2'>
                             <div className="input-group rounded">
                                 <input type="search" className="form-control search-box" placeholder="Type to Search..." name="search"
-                                 onChange={e => setSearchText(e.target.value)}/>
+                                 onChange={e => setSearchText(e.target.value)} onKeyPress={handleKeyPress}/>
                                 {
                                     searchText ?
                                      <button type="submit" className='search-icon' onClick={handleSearchClick} ><img src={search} alt="" className='p-1'/></button> 
