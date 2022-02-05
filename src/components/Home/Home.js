@@ -36,9 +36,9 @@ const Home = (props) => {
     return ( 
         <div className='container mb-3'>
             <div className="row">
-                <div className='d-flex align-items-center justify-content-between mt-3 mb-4'>
+                <div className='header-section mt-3 mb-3'>
                     <div className='logo'>
-                        <img src={logo} alt="" height='35' onClick={refreashPage} />
+                        <img src={logo} alt="" onClick={refreashPage} />  
                     </div>
                     <div>
                         {/* <input type="text" className='form-control' value={props.value} onChange={(e) => props.setSearchValue(e.target.value)} placeholder='Type to Search.....'/>  */}
@@ -57,22 +57,18 @@ const Home = (props) => {
                     </div> 
                 </div>
 
-                <h3 className='text-white'>{props.topRatedMovie}</h3>
+                <h3 className='text-white text-center'>{props.topRatedMovie}</h3>
                
 
             
         {
             props.movies.map((movie,index) => 
-                <div className='col-md-2 col-3 d-flex justify-content-start image-container' key={index}> 
-                
-                    <img src={movie.Poster} alt="" className='mt-2 rounded image'/>   
-                    <div className='details'>
-                        <button className='details-text' onClick={() => handleClick(movie.imdbID)}>Details</button>
-                    </div>
-                    
-                </div>
-                
-           
+            <div className='col-md-2 col-3 image-container' key={index}> 
+                <img src={movie.Poster} alt="" className='mt-2 rounded image'/>   
+                <div className='details'>
+                    <button className='details-text' onClick={() => handleClick(movie.imdbID)}>Details</button>
+                </div> 
+            </div>
             )
         }
         

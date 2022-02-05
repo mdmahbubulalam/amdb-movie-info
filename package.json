@@ -1,5 +1,5 @@
 {
-  "name": "amdb",
+  "name": "moviesearch",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

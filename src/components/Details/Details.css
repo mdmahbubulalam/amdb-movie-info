@@ -1,5 +1,11 @@
 .bg-color{
-    background-image: linear-gradient(to right, rgba(8.24%, 8.63%, 10.59%, 1.00) 150px, rgba(8.24%, 8.63%, 10.59%, 0.84) 100%);
+    background-image: linear-gradient(to right, rgba(8.24%, 8.63%, 10.59%, 1.00) 1000px, rgba(8.24%, 8.63%, 10.59%, 0.84) 100%);
+}
+
+.details-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .logo {
@@ -25,3 +31,20 @@ p{
 .bg-rated {
     background-color: gray;
 }
+
+@media (max-width: 850px) {
+    .details-section{
+      flex-direction: column;
+  }
+
+  .text-align{
+      text-align: center;
+  }
+  }
+
+  @media screen and (max-width: 1199px) and (min-width: 849px){
+        .img-size img{
+            margin-right: 30px;
+
+        }
+  }
